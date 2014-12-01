@@ -15,7 +15,7 @@ set hidden
 
 nmap <leader>l :bnext<CR>
 nmap <leader>h :bprevious<CR>
-let g:airline#extensions#tmuxline#enabled = 1
+let g:airline#extensions#tmuxline#enabled = 0
 " always show the status line
 set laststatus=2
 " Enable the list of buffers
@@ -27,3 +27,4 @@ let g:airline#extensions#tabline#enabled = 1
 map <silent> tu :call GHC_BrowseAll()<CR>
 " Type Lookup
 map <silent> tw :call GHC_ShowType(1)<CR>
+set t_Co=256

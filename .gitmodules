@@ -19,3 +19,6 @@
 [submodule "bundle/ghcmod"]
 	path = bundle/ghcmod
 	url = git@github.com:eagletmt/ghcmod-vim.git
+[submodule "bundle/tmuxline"]
+	path = bundle/tmuxline
+	url = git@github.com:edkolev/tmuxline.vim.git
