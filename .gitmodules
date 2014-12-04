@@ -22,3 +22,9 @@
 [submodule "bundle/tmuxline"]
 	path = bundle/tmuxline
 	url = git@github.com:edkolev/tmuxline.vim.git
+[submodule "bundle/lushtags"]
+	path = bundle/lushtags
+	url = git@github.com:bitc/lushtags.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar

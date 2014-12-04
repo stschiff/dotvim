@@ -11,6 +11,8 @@ set number
 setlocal omnifunc=necoghc#omnifunc
 set expandtab
 set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set hidden
 
 nmap <leader>l :bnext<CR>
@@ -28,3 +30,6 @@ map <silent> tu :call GHC_BrowseAll()<CR>
 " Type Lookup
 map <silent> tw :call GHC_ShowType(1)<CR>
 set t_Co=256
+set tags=./tags,tags;
+
+let g:syntastic_ignore_files = ['.*\.d']
